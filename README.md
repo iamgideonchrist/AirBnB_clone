@@ -31,6 +31,7 @@ For further information on Python version, and documentation visit [python.org](
 * Used `vi`, `vim`, and `emacs` as editor
 * All files are interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 * All files end with a new line
+* The first line of all files is exactly `#!/usr/bin/python3`
 * A `README.md` file, at the root of the folder of the project
 * All code uses the pycodestyle (version `2.8.*`)
 * All files are executable
@@ -38,7 +39,7 @@ For further information on Python version, and documentation visit [python.org](
 * All modules have a documentation (`python3 -c 'print(__import__("my_module").__doc__)'`)
 * All classes have a documentation (`python3 -c 'print(__import__("my_module").MyClass.__doc__)'`)
 * All functions (inside and outside a class) have a documentation (`python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`)
-* A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+* The length of documentation verified
 * The documentation a real sentence explaining what’s the purpose of the module, class, or method.
 
 ### Python Unit Tests :memo:
